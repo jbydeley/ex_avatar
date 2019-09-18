@@ -23,3 +23,5 @@ erl_crash.dump
 ex_avatar-*.tar
 
 /.elixir_ls/
+
+/avatars/
