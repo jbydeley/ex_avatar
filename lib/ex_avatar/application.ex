@@ -7,7 +7,7 @@ defmodule ExAvatar.Application do
     [
       {:name, {:local, :worker}},
       {:worker_module, ExAvatar.Generator},
-      {:size, 8},
+      {:size, 16},
       {:max_overflow, 2}
     ]
   end

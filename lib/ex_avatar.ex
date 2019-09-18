@@ -7,6 +7,8 @@ defmodule ExAvatar do
   @letters ~w(A B C D E F G H I J K L M N O P Q R S T U V W X Y Z)
   @colors ~w(red blue purple)
 
+  @letters ~w(A B C D E F G H)
+  @colors ~w(red)
   def generate(opts \\ []) do
     ExAvatar.generate_names(opts)
     |> Enum.map(fn data -> ExAvatar.async_create_image(data) end)
